@@ -3,7 +3,11 @@ client = boto3.client('ec2')
 response = client.run_instances(
     ImageId='ami-07d9cf938edb0739b',
     InstanceType='t2.micro',
-    KeyName='Mahesh',
+<<<<<<< HEAD
+    KeyName='Mahi',
+=======
+    KeyName='Mahi',
+>>>>>>> main
     MaxCount=1,
     MinCount=1
 )
